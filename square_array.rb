@@ -6,6 +6,6 @@
 
 
 def square_array(array)
-  square = array.collect { |number| square.push(number ** 2) }
-  square
+  square_array = array.collect { |number| square.push(number ** 2) }
+  square_array
 end
